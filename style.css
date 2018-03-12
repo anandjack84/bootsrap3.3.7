@@ -1,0 +1,124 @@
+/*-----------------------------*/
+/*------------RESET------------*/
+/*-----------------------------*/
+
+* {
+    transition-timing-function: ease-in-out;
+     -ms-transition-timing-function: ease-in-out;
+      -moz-transition-timing-function: ease-in-out;
+       -webkit-transition-timing-function: ease-in-out;
+        -o-transition-timing-function: ease-in-out;
+         transition-duration: .2s;
+          -ms-transition-duration: .2s;
+           -moz-transition-duration: .2s;
+            -webkit-transition-duration: .2s;
+             -o-transition-duration: .2s;
+               margin: 0;
+                padding: 0;
+}
+
+
+/* -------------------------------- 
+
+Primary style
+
+-------------------------------- */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	font-size: 14px;
+	color: #6f6f6f;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+body,
+html {
+	height: 100%;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+a,
+a:active,
+a:focus {
+	color: #6f6f6f;
+	text-decoration: none;
+}
+
+a:hover,
+a:active {
+	color: #ff214f;
+	text-decoration: none;
+}
+
+a:focus,
+a:active,
+button:focus,
+button:active,
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {
+	outline: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* ==========================================================================
+Typography
+========================================================================== */
+p {
+  font-size: 15px;
+  line-height: 29px;
+  color: rgba(28, 54, 83, 0.6);
+  padding-bottom: 20px; }
+
+h1 {
+  font-size: 60px; }
+
+h2 {
+  font-size: 40px;
+  font-weight: 300;
+  color: #3D4351; }
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #3D4351; }
+
+h4 {
+  font-size: 18px; }
+
+h5 {
+  font-size: 15px;
+  color: #3D4351;
+  text-transform: uppercase;
+  font-weight: 500; }
+
+
+/* ==========================================================================
+Responsive
+========================================================================== */
+@media (max-width: 1366px){
+}
+@media (max-width: 1024px){
+}
+@media (max-width: 768px){
+}
+@media (max-width: 640px){
+}
+@media (max-width: 480px){
+}
+@media (max-width: 375px){
+}
+@media (max-width: 360px){
+}
+@media (max-width: 320px){
+}
